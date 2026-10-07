@@ -6,22 +6,55 @@
 
 body {
     display: flex;
+    flex-direction: column;
+    gap: 42px;
     background-color: #F7F7F7;
     font-family: "Google Sans", sans-serif;
     height: 100vh;
+    padding: 64px;
+
 }
 
 .graph-wrapper {
     display: flex;
     flex-direction: column;
     gap: 42px;
-    padding: 64px;
 
+    padding: 0px 0px 42px 0px;
+    border-bottom: 1px solid #cecece;
 }
 
 .graph {
-    display: flex;
-    padding: 64px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
     background-color: white;
     border-radius: 8px;
+
+    width: 40vw;
+    height: 40vh;
+}
+
+.graph-fluxlog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    background-color: white;
+    border-radius: 8px;
+
+    width: 40vw;
+    height: 40vh;
+}
+
+.graph-wrapper-task {
+    display: flex;
+    gap: 42px;
+    flex-direction: column;
+}
+
+.graphs-wrapper {
+    display: flex;
+    gap: 64px;
 }
