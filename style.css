@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: #F7F7F7;
+    font-family: "Google Sans", sans-serif;
+    height: 100vh;
+}
+
+.graph-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    padding: 64px;
+
+}
+
+.graph {
+    display: flex;
+    padding: 64px;
+    background-color: white;
+    border-radius: 8px;
+}
